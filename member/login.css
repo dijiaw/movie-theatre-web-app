@@ -1,0 +1,62 @@
+.mainbody {
+    padding: 180px 120px;
+}
+
+
+form {
+    font-family: Arial, sans-serif;
+    width: 365px;
+    padding: 20px 25px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.newmember-form {
+    height: 310px;
+}
+
+.existingmember-form {
+    height: 170px;
+}
+
+.existingmember {
+    padding-top: 50px;
+    float: left;
+}
+
+.newmember {
+    margin-left: 500px;
+}
+
+label {
+    float: left;
+    display: inherit;
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+input {
+    display: block;
+}
+
+.reset {
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.register-submit {
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.login-submit {
+    float: left;
+    text-align: center;
+    margin-left: 150px;
+}
+

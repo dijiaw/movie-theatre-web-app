@@ -1,0 +1,113 @@
+index.php
+    nav-block -> navclass
+    nav-bar -> navigations
+    nav-member -> buttons
+    nav-li -> links
+    quick-book -> filter
+    quick-book-now -> search
+    movie-overview -> movies
+    book-form -> filterform
+    movie-posters -> movieInfo
+
+
+header.php
+    username -> currentuser
+    valid_user -> user
+    <div class="logo-box"> -> logo
+
+
+movies
+    filterResult.php -> filter.php
+    selected_movie -> my_movie (same for other vars)
+
+cart
+    total_amount -> sum
+    amount -> cur
+    timeslotid -> slotid
+    timeslot -> slot
+    seat_selected -> seats
+    seat -> s
+
+    IN CSS:
+    tr(confirm-part) -> confirmation
+    cart_table -> items-in-cart
+    descript_part -> title
+    Describe -> title-text
+    small_table -> secondary-table
+    poster_td -> poster-row
+    Remove_all_items -> clear-cart
+    Remove -> delete
+    remove_button -> delete_button
+    remove_all_button -> clear_cart_button
+    movie_info -> ticket
+    shopping -> buy_more
+    summary -> confirm
+    nothing -> empty
+
+contact -> contactUs
+    main-body -> mainbody
+    survey-block -> feedback-class
+    cinema-info -> about-us
+    survey -> feedback-form
+    customer -> feedback-name
+    email -> feedback-email
+    comment -> feedback-content / feedback
+
+membership -> member
+    CSS
+        main-body -> mainbody
+        login -> existingmember
+        register -> newmember
+    login.php
+        attribute -> existing/new attribute
+        password2 -> confirmpassword
+        reset-button -> reset
+    handle-login -> action-login
+    handle-logout -> action-logout
+
+movieDetail -> moiveInfo
+    movie-details -> info
+    movie-poster -> pic
+    movie-name -> title
+    movie-img -> image
+    movie-description -> attributes
+    desc-table -> movie-attributes
+    trailer -> button
+    timeslot-table -> slots-available
+    timeslots -> slots
+
+seatSelection -> seating
+    poster -> pic
+    poster-img -> image
+    ticket-info -> information
+    movie -> details
+    movie-info -> hallandtime
+    addto-cart -> add
+    screen -> text-screen
+    screenhr -> screen
+    hidden -> infoli
+    foo -> block
+    white -> available
+    gray -> sold
+    skyblue -> reserved
+    yellow -> selected
+    color -> status
+    toAmount -> cost
+    seatsNo -> choice
+    total_price -> sum_cost
+    ticket_num -> count
+    total -> sum
+    checked -> boxes
+    addtoCart -> order
+    result -> res
+    seatresult -> seats_chosen
+
+summary -> output
+    key -> first
+    key2 -> second
+    email_messgae -> msg
+    seat_select -> seats
+    seat -> s
+    timeslotid -> slotid
+    timeslot -> slot
+

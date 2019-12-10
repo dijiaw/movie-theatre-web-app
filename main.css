@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #DDDDDD;
+}
+
+header{
+    height: 70px;
+    position: fixed;
+    background: #000000;
+    z-index: 9999;
+    width: 1280px;
+}
+
+.logoclass {
+    width: 15%;
+    float: left;
+}
+
+.logo {
+    height: 70px;
+    padding-left: 20px;
+}
+
+.navclass {
+    margin-left: 7%;
+    min-width: 700px;
+    display: inline-block;
+    width: 78%;
+}
+.nav-bar {
+    margin-right: 280px;
+    list-style-type: none;
+    min-width: 700px;
+    margin-top: 25px;
+}
+
+.buttons {
+    height: 36px;
+    width: 55px;
+    float: right;
+    margin-top: 26px;
+    margin-right: 20px;
+    cursor: pointer;
+    background: #FFFFFF;
+}
+.buttonswords{
+    height: 36px;
+    width: 180px;
+    float: right;
+    margin-top: 26px;
+    margin-right: 25px;
+    color: white;
+}
+
+.links {
+    display: inline;
+    padding: 25px;
+    font-family: lato,san-serif;
+    font-size: 21px;
+    color: #333333;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #333333;
+}
+
+.nav-bar a:link {
+    color: #666666;
+}
+
+a:visited {
+    color: #333333;
+}
+
+.nav-bar a:visited {
+    color: #FFFFFF;
+}
+
+a :hover {
+    color: #333333;
+}
+
+footer {
+    font-size: 1.2em;
+    text-align: center;
+    clear: right;
+    padding: 19px;
+    background-color: #666666;
+    color: #FFFFFF;
+    bottom: 0;
+}
+
+.mainbody{
+    background: #DDDDDD;
+    min-height: 60vh;
+}
+
+.body-wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+.filter {
+    float: left;
+    margin-top: 110px;
+    padding-left: 5%;
+    width: 14%;
+}
+
+
+.movies {
+    margin-top: 105px;
+    padding-bottom: 55px;
+    display: inline-block;
+    margin-left: 6%;
+    width: 75%;
+}
+
+.filterform {
+    font-family: Arial, sans-serif;
+    padding: 17px;
+    border: 4px #ffffff solid;
+    border-radius: 25px;
+    background-image: linear-gradient(#111111,#444444);
+    color: white;
+}
+
+.filterform label {
+    clear: left;
+    display: block;
+    width: 150;
+    text-align: left;
+    padding-right: 33px;
+    margin-top: 16px;
+}
+
+.filterform input, .filterform select {
+    margin-top: 16px;
+    display: block;
+    width: 129px;
+}
+
+.pics {
+    width: 899px;
+    height: 599px;
+    padding-right: 79px;
+    border: none;
+    border-collapse: collapse;
+}
+
+.pics td {
+    border: none;
+}
+
+.poster {
+    height: 249px;
+}
+
+.movies td {
+    width: 249px;
+    height: 305px;
+}
+
+.previous {
+    float: left;
+    margin-left: 300px; 
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 80px;
+    font-size: 2em;
+}
+
+.next {
+    float: left;
+    margin-left: 20px; 
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 80px;
+    font-size: 2em;
+}

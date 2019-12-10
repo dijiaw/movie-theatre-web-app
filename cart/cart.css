@@ -1,0 +1,99 @@
+.mainbody {
+    padding: 120px 50px 120px 50px;
+    min-height: 360px;
+}
+
+.items-in-cart {
+    border-collapse: collapse; 
+    width: 70%;
+    margin: auto;
+}
+#title{
+    border: none;
+}
+
+#title-text{
+    text-align: left;
+    padding: 10px 0 10px 10px;
+}
+
+th{
+    border-width: 1px 0;
+    padding: 10px 0; 
+}
+
+.items-in-cart td {
+    padding: 10px 0; 
+    border-color: #111111;
+    text-align: center;
+}
+
+.items-in-cart tr {
+    border: 0.1em solid;
+}
+
+.secondary-table{
+    margin-left: 19%;
+}
+
+.secondary-table td {
+    border: none;
+    text-align: left;
+    padding: 0 0 29px 0;
+}
+
+.poster-row {
+    width: 29%;
+}
+
+.delete{
+    vertical-align: top;
+}
+
+.delete_button{
+    width: 109px;
+    height: 39px;
+    cursor: pointer;
+}
+
+.clear_cart_button{
+    width: 109px;
+    height: 39px;
+    cursor: pointer;
+}
+
+.clear_cart_button:disabled {
+    cursor: not-allowed;
+}
+
+.ticket{
+    vertical-align: top;
+}
+
+#buy_more {
+    width: 109px;
+    height: 39px;
+    cursor: pointer;
+}
+
+#confirm {
+    width: 109px;
+    height: 39px;
+    cursor: pointer;
+}
+
+#confirm:disabled{
+    cursor: not-allowed;
+}
+
+#confirmation {
+    border: none;
+}
+#confirmation th{
+    padding-top: 49px;
+}
+
+#empty{
+    text-align: left;
+    padding-left: 9px;
+}

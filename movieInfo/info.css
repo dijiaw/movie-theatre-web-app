@@ -1,0 +1,65 @@
+
+.info {
+    padding: 49px;
+}
+
+.pic {
+    float: left;
+    padding-left: 99px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.title {
+    padding-top: 49px;
+    padding-left: 99px;
+    font-size: 33px;
+}
+
+.image {
+    height: 269px;
+    width: 179px;
+}
+
+.slots {
+    padding-bottom: 99px;
+    margin-left: 99px;
+    text-align: center;
+    padding-top: 0;
+}
+
+.movie-attributes {
+    height: 280px;
+    width: 762px;
+}
+
+.movie-attributes th {
+    text-align: left;
+    height: 25px;
+    font-size: 30px;
+}
+
+.movie-attributes td {
+    padding-right: 59px;
+}
+
+.button {
+    height: 39px;
+    width: 161px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 230px;
+}
+
+form {
+    margin-left: 329px;
+}
+
+.slots-available{
+    padding-top: 0;
+    align-content: center;
+}
+
+.next {    
+    padding-top: 100px;
+}

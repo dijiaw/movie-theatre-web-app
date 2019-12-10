@@ -1,0 +1,19 @@
+.mainbody {
+    padding-left: 450px;
+    padding-top: 119px;
+    min-height: 359px;
+}
+
+.ticket {
+    padding-left: 25px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+tr >.left-col {
+    padding-right: 19px;
+}
+
+tr {
+    margin-bottom: 16px;
+}

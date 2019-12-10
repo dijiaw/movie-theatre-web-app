@@ -1,0 +1,62 @@
+
+.mainbody{
+    padding: 120px;
+    bottom: 0;
+}
+
+.about-us {
+    float: left;
+    padding: 18px;
+    border-radius: 10px;
+    background-image: linear-gradient(#111111,#666666);
+    color: white;
+    width: 400px;
+    height: 280px;
+}
+
+address {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+h4 {
+    width: 328px;
+}
+
+#submit {
+    margin-top: 20px;
+}
+
+.feedback-class {
+    width: fit-content;
+    margin-left: 555px;
+    padding: 18px;
+    border-radius: 10px;
+    background-image: linear-gradient(#666666,#111111);
+    color: white;
+    width: 400px;
+    height: 280px;
+}
+
+.feedback-form {
+    padding-left: 40px;
+}
+
+.feedback-form textarea {
+    margin-top: 18px;
+    width: 250px;
+}
+
+.feedback-form input {
+    margin: 0 0 20px 20px;
+    width: 128px;
+    
+}
+
+.feedback-form label {
+    width: 111px;
+    text-align: left;
+    padding-right: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

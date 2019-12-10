@@ -1,0 +1,135 @@
+.mainbody {
+    padding-left: 118px;
+    padding-right: 118px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+}
+
+.pic {
+    float: left;
+}
+
+.image {
+    height: 269px;
+    width: 179px;
+}
+
+.information {
+    position: absolute;
+    padding-left: 800px;
+}
+
+.details {
+    margin-left: 265px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-left: 1px;
+}
+
+#add {
+    width: 225px;
+    height: 29px;
+    cursor: pointer;
+}
+
+#add:disabled {
+    cursor: not-allowed;
+}
+
+#confirm, #cancel {
+    margin-top: 10px;
+    width: 108px;
+    height: 29px;
+    cursor: pointer;
+}
+
+#cancel {
+    margin-left: 9px;
+}
+
+
+input[type="checkbox"]:not(:checked), 
+input[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999%;
+}
+
+input[type="checkbox"] + label {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer;
+    border: 0.05em solid #111111;
+    color: #111111;
+    background-color: white;
+    margin-bottom: 9px;
+    border-radius: 0.1em;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+input[type="checkbox"]:checked + label {
+    border: 0.05em solid #111111;
+    color: #FFFFFF;
+    background-color: #fc0f03;
+}
+
+input[type="checkbox"]:disabled + label  {
+    background-color: #666666;
+}
+
+input[name="reserved"]:disabled + label {
+    background-color: #b1e0d2;
+}
+
+.seating {
+    border: 0.05em solid #111111;
+    border-radius: 0.1em;
+    width: fit-content;
+}
+
+.text-screen {
+    text-align: center;
+    margin-top: 0;
+}
+
+.screen {
+    width: 50%;
+    margin-bottom: 0;
+}
+
+#infoli {
+    display: none;
+}
+
+.block {
+    width: 19px;
+    height: 19px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 0.05em solid #111111;
+    display: inline-block;
+  }
+  
+  .available {
+    background: white;
+  }
+  
+  .sold {
+    background: #666666;
+  }
+  
+  .reserved {
+    background: #b1e0d2;
+  }
+
+  .selected {
+      background: #fc0f03;
+  }
+
+  .status {
+    margin-left: 29px;
+    margin-bottom: 29px;
+  }

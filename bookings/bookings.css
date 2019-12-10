@@ -1,0 +1,42 @@
+.mainbody {
+    padding: 120px 50px 120px 50px;
+    min-height: 359px;
+}
+
+#confirm {
+    width: 100px;
+    margin-top: 20px;
+    align-content: center;
+    margin-left: 30px;
+}
+
+#reference {
+    margin-left: 30px;
+    width: 200px;
+}
+
+#label {
+    margin-left: 50px;
+}
+
+p {
+    margin-left: 50px;
+}
+
+h2 {
+    margin-left: 450px;
+}
+
+.ticket {
+    margin-left: 450px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+tr >.left-col {
+    padding-right: 19px;
+}
+
+tr {
+    margin-bottom: 16px;
+}
